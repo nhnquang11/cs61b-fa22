@@ -9,14 +9,14 @@ public class PercolationStats {
     /** Keep track the thresholds of each experiment. */
     private double[] thresholds;
 
-    /* Sample mean of percolation threshold. */
+    /** Sample mean of percolation threshold. */
     private double sampleMean;
-    /* Standard deviation of percolation threshold. */
+    /** Standard deviation of percolation threshold. */
     private double sampleStd;
 
-    /* Low endpoint of 95% confidence interval. */
+    /** Low endpoint of 95% confidence interval. */
     private double sampleConfidenceLow;
-    /* High endpoint of 95% confidence interval. */
+    /** High endpoint of 95% confidence interval. */
     private double sampleConfidenceHigh;
 
     /** Perform T independent experiments on an N-by-N grid. */
